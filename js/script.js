@@ -2,7 +2,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Ideas into technology", "AI-driven", "Digital Solutions", "Challenges With IT"];
+const textArray = ["Web Development", "Mobile App Development", "App Development Agency", "IOS App Development", "Android App Development"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
@@ -158,3 +158,12 @@ responsive:{
 })
 });
 /*======================================what client say==============================================*/
+
+/*======================================fixed sidebar js=============================================*/
+$(document).ready(function(){
+  $('.toggle').click(function(){
+    $('.sidebar-contact').toggleClass('active')
+    $('.toggle').toggleClass('active')
+  })
+})
+/*======================================fixed sidebar js=============================================*/

@@ -116,14 +116,11 @@
     .jhdr_socialarea li a i
     {
         font-size: 10px;
+        padding: 0px 4px 0px 0px;
     }
     .jhdr_socialarea li
     {
-        padding: 25px 5px 0px 0px;
-    }
-    .banner_content
-    {
-        margin: 40px 0px 0px 0px;
+        padding: 25px 4px 0px 0px;
     }
     .textcontent_area p
     {
@@ -135,7 +132,7 @@
     }
     .ojm_section span
     {
-        font-size: 12px;
+        font-size: 11px;
     }
     .ojm_section img
     {
@@ -284,6 +281,7 @@
     .lhpem_textdesign
     {
         width: 100%;
+        font-size: 13px;
     }
     .fdchck_outarea label
     {
@@ -306,4 +304,168 @@
        width: 90px;
        height: 90px;
     }
+    .trctext_design
+    {
+        font-size: 20px;
+    }
+    .form-item input
+    {
+        height: 35px;
+    }
+    .form-item label
+    {
+        top: 8px;
+    }
+    .blob-btn
+    {
+        font-size: 12px;
+    }
+    .banner_content
+    {
+        margin: 0px 0px 0px 0px;
+        display: none;
+    }
+    /*.hbmain_outsection
+    {
+        height: 170vh;
+    }
+    .responsive_videobackground
+    {
+        height: 170vh;
+    }
+    .blackbackground_area
+    {
+        height: 170vh;
+    }*/
+    .bannerform_outstructure 
+    {
+        margin: 50px 0px 50px 0px;
+    }
+    .fstabout_imgdesign
+    {
+        width: 100%;
+    }
+    .secondabout_imgdesign
+    {
+        display: none;
+    }
+    .fstscndimg_backdesign
+    {
+        top: -7%;
+    }
+    .outaboutsection_outarea
+    {
+        margin: 80px 0px 0px 0px;
+    }
+    .wattext_design
+    {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0px 0px 0px 0px;
+        padding: 50px 0px 0px 0px;
+    }
+    .rightcontent_abtimgarea
+    {
+        padding: 0px 0px 0px 12px;
+    }
+    .abtp_textpdesign
+    {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .lftserverimg_design
+    {
+        width: 50px;
+    }
+    .nmberbox_outarea
+    {
+        bottom: -43%;
+        right: 20%;
+    }
+    .rightabot_outsection
+    {
+        margin: 170px 0px 0px 0px;
+    }
+    .bsdhdng_textdesign
+    {
+        font-size: 17px;
+    }
+    .about_devantptext
+    {
+        font-size: 12px;
+    }
+    .about_devantptext
+    {
+        font-size: 12px;
+    }
+    .knumber_exprnctext
+    {
+        padding: 20px 50px 20px 50px;
+    }
+    .ksastext_design
+    {
+        font-size: 25px;
+    }
+    .okeysrvce_outsection
+    {
+        font-size: 25px;
+    }
+    .ksastext_design
+    {
+        padding: 0px 0px 10px 0px;
+    }
+    .shortbox_outarea
+    {
+        top: 38%;
+    }
+    .devlop_potextdesign
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .rdmbtn_outsection
+    {
+        padding: 5px 0px 10px 0px;
+    }
+    .leftcontact_outsection
+    {
+        padding: 0px 0px 0px 0px;
+    }
+    .rightconatct_outsection
+    {
+        padding: 20px 0px 0px 0px;
+    }
+}
+@media(max-width:768px)
+{
+  .sidebar-contact{
+    width:100%;
+    height:100%;
+    left:-100%;
+    z-index: 999;
+  }
+  .sidebar-contact h2
+  {
+    padding: 70px 0px 0px 0px;
+  }
+  .sidebar-contact .toggle{
+    top:50%;
+    transform:translateY(-50%);
+    transition:0.5s;
+  }
+  .sidebar-contact.active .toggle
+  {
+    top:0;
+    right:0;
+    transform:translateY(0);
+  }
+  .scroll{
+    width:100%;
+    height:100%;
+    overflow-y:auto;
+  }
+  .content{
+    padding:50px 50px;
+  }
 }
